@@ -13,40 +13,40 @@
                 Calculadora
             </div>
             <div class="visor">
-                <div class="numeros pisca">|</div>
+                <div class="numeros pisca"></div>
             </div>
             <div class="teclado">
                 <div class="teclado-linha">
                     <div class="teclado-botao btnlm" onclick="limpar()">Limpa</div>
-                    <div class="teclado-botao" class="btn-por">%</div>
+                    <div class="teclado-botao btn-apagar" onclick="back('<')"><</div>
                     
-                    <div class="teclado-botao btn-divi">:</div>
+                    <div class="teclado-botao btn-divi" onclick="clicou('/')">/</div>
                 </div>
                 <div class="teclado-linha">
-                    <div class="teclado-botao btn-1" onclick="clicou('1')">1</div>
-                    <div class="teclado-botao btn-2" onclick="clicou('2')">2</div>
-                    <div class="teclado-botao btn-3" onclick="clicou('3')">3</div>
-                    <div class="teclado-botao btn-x">x</div>
+                    <div class="teclado-botao btn-1" onclick="clicou('7')">7</div>
+                    <div class="teclado-botao btn-2" onclick="clicou('8')">8</div>
+                    <div class="teclado-botao btn-3" onclick="clicou('9')">9</div>
+                    <div class="teclado-botao btn-x" onclick="clicou('*')">*</div>
                     
                 </div>
                 <div class="teclado-linha">
                     <div class="teclado-botao btn-4" onclick="clicou('4')">4</div>
                     <div class="teclado-botao btn-5" onclick="clicou('5')">5</div>
                     <div class="teclado-botao btn-6" onclick="clicou('6')">6</div>
-                    <div class="teclado-botao btn-mais">+</div>
+                    <div class="teclado-botao btn-mais" onclick="clicou('+')">+</div>
                     
                 </div>
                 <div class="teclado-linha">
-                    <div class="teclado-botao btn-7" onclick="clicou('7')">7</div>
-                    <div class="teclado-botao btn-8" onclick="clicou('8')">8</div>
-                    <div class="teclado-botao btn 9" onclick="clicou('9')">9</div>
-                    <div class="teclado-botao btn-menos">-</div>
+                    <div class="teclado-botao btn-7" onclick="clicou('1')">1</div>
+                    <div class="teclado-botao btn-8" onclick="clicou('2')">2</div>
+                    <div class="teclado-botao btn 9" onclick="clicou('3')">3</div>
+                    <div class="teclado-botao btn-menos" onclick="clicou('-')">-</div>
                     
                 </div>
                 <div class="teclado-linha">
                     <div class="teclado-botao btn-num" onclick="clicou('0')">0</div>
-                    <div class="teclado-botao btn-ponto">.</div>
-                    <div class="teclado-botao btn-igual">=</div>
+                    <div class="teclado-botao btn-ponto" onclick="clicou('.')">.</div>
+                    <div class="teclado-botao btn-igual" onclick="calcular()">=</div>
                     
                 </div>
                   

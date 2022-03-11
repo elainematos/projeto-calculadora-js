@@ -12,36 +12,48 @@ function mostrarNumero() {
     //botao1.innerHTML = value;
 };*/
 let piscar = document.querySelector('.pisca')  
-    function clicou(n){
-        let numero = document.querySelector('.numeros');
-        numero.innerHTML = n;
-        numero.classList.remove('pisca');
-       
-    }
-    
-    function soma(numeros1, numeros2) {
-        let resultado = numeros1 + numeros2;
-        
-       
 
+//Função Inserir números.
+function clicou(n){
+    let numero = document.querySelector('.numeros').innerHTML;
+    document.querySelector('.numeros').innerHTML = numero + n;
+    //numero.innerHTML = numero + n;
+    //document.querySelector('.numeros .pisca').innerHTML = none;
+       
+    //numero.classList.remove('.pisca');
+       
+}
+//Função para realizar operações matematicas.
+function calcular() {
+    var numero = document.querySelector('.numeros');
+    if(numero.textContent != 'Erro') {
+        document.querySelector('.numeros').innerHTML = eval(numero.innerHTML);
     }
-    //numeros.innerHTML = "";
+}
+//Função limpar numeros
+function back() {
+    let numero = document.querySelector('.numeros').innerHTML;
+     document.querySelector('.numeros').innerHTML = numero.substring(0, numero.length -1); 
+}
+
+
+    
+//Função limpar todo o conteudo.
     function limpar(){
-        let numeros2 = document.querySelector('.numeros'); 
+    let numeros2 = document.querySelector('.numeros');       
         
-        if(numeros2 == numeros2){
-            document.querySelector('.numeros').innerHTML = "";
+    if(numeros2 == numeros2){
+        document.querySelector('.numeros').innerHTML = "";
             
            
-        }else {
-            numeros2.classList.add('.pisca');
+    }else {
+        numeros2.classList.add('.pisca' + "|");
             
         
-        }
-       
+    
 
     }
 
     
-    
+}   
   
