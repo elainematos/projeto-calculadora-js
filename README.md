@@ -1,4 +1,4 @@
-# <h1 aling="center">projeto-calculadora-js</h1></br>
+<h1 aling="center">projeto-calculadora-js</h1></br>
 <h2 aling="center">Calculadora</h2></br\>
 <h2 aling="center">Descrição do projeto</h2>
 <p>Projeto calculadora, com suas funções básicas de Somar, subtrair, dividir e multiplicar, onde possui botão de apagar caracteres e limpar a tela. Usando as tecnologias: html5, css3 e javascript.</p>
