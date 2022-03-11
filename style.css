@@ -27,6 +27,7 @@ body {
     background-color: #202020;
     display: block;
     margin-top: 70px;
+    box-shadow: 0 0 5px 5px #bdbbbb;
 
 }
 .visor {
